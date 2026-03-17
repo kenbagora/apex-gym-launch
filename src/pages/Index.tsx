@@ -256,7 +256,8 @@ const WhatsAppFab = () => (
 /* ─── Footer ─── */
 const Footer = () => (
   <footer className="border-t border-border bg-charcoal-deep py-8 text-center text-sm text-muted-foreground">
-    © {new Date().getFullYear()} Apex Iron Gym. All rights reserved.
+  © {new Date().getFullYear()} Apex Iron Gym. All rights reserved.
+    <p className="mt-1 text-xs text-muted-foreground/60">Built by L'Elite Digital</p>
   </footer>
 );
 
